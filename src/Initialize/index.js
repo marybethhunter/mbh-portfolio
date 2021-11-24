@@ -1,38 +1,58 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import firebase from 'firebase/app';
+import 'firebase/auth';
+import { createTheme, ThemeProvider } from '@mui/material';
+import Routes from '../routes/index';
+import NavBar from '../components/NavBar';
+import Footer from '../components/Footer';
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      light: '#645B78',
+      main: '#6B01FD',
+      dark: '#160033',
+      contrastText: '#ffffff',
+    },
+    secondary: {
+      main: '#49FDB1',
+      contrastText: '#ffffff',
+    },
+  },
+  typography: {
+    allVariants: {
+      color: '#ffffff',
+    },
+  },
+  Card: {
+    allVariants: {
+      color: '#ffffff',
+    },
+  },
+});
 
 function Initialize() {
-  const [domWriting, setDomWriting] = useState('Nothing Here!');
+  const [user, setUser] = useState(null);
 
-  const handleClick = (e) => {
-    console.warn(`You clicked ${e.target.id}`);
-    setDomWriting(`You clicked ${e.target.id}! Check the Console!`);
-  };
+  useEffect(() => {
+    firebase.auth().onAuthStateChanged((authed) => {
+      if (authed) {
+        const userObj = {
+          fullName: authed.displayName,
+          uid: authed.uid,
+          isAdmin: process.env.REACT_APP_ADMIN_UID === authed.uid,
+        };
+        setUser(userObj);
+      }
+    });
+  }, []);
 
   return (
-    <div className="App">
-      <h2>INSIDE APP COMPONENT</h2>
-      <div>
-        <button
-          type="button"
-          id="this-button"
-          className="btn btn-info"
-          onClick={handleClick}
-        >
-          I am THIS button
-        </button>
-      </div>
-      <div>
-        <button
-          type="button"
-          id="that-button"
-          className="btn btn-primary mt-3"
-          onClick={handleClick}
-        >
-          I am THAT button
-        </button>
-      </div>
-      <h3>{domWriting}</h3>
-    </div>
+    <ThemeProvider theme={theme}>
+      <NavBar />
+      <Routes user={user} />
+      <Footer />
+    </ThemeProvider>
   );
 }
 
