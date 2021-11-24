@@ -20,6 +20,7 @@ export default function Home() {
   return (
     <DivStyle className="home-div">
       <BoxStyle
+        className="home-img"
         component="img"
         sx={{
           height: 'auto',

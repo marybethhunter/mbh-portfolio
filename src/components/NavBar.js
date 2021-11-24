@@ -20,7 +20,7 @@ const NavStyle = styled(AppBar)`
 export default function NavBar() {
   return (
     <Box>
-      <NavStyle position="static">
+      <NavStyle position="static" className="nav-style">
         <Toolbar>
           <div>
             <ButtonStyle href="/">Home</ButtonStyle>
