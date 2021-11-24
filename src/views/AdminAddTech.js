@@ -6,9 +6,9 @@ import TechCardForm from '../components/forms/TechCardForm';
 import { signOutUser } from '../api/auth';
 
 const ButtonStyle = styled.button`
-  margin-top: 40px;
-  color: white;
-  background-color: orange;
+  margin-top: 40px !important;
+  color: white !important;
+  background-color: orange !important;
 `;
 
 export default function AdminAddTech({ user }) {

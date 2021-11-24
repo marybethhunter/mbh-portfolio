@@ -13,23 +13,23 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { getContactInfo } from '../api/data/portfolioData';
 
 const DivStyle = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 90vh;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  min-height: 90vh !important;
 `;
 
 const CardStyle = styled(Card)`
-  display: flex;
-  justify-content: center;
-  box-shadow: 12px 12px 2px 1px #49fdb1;
+  display: flex !important;
+  justify-content: center !important;
+  box-shadow: 12px 12px 2px 1px #49fdb1 !important;
 `;
 const TextStyle = styled(Typography)`
-  margin-bottom: 30px;
+  margin-bottom: 30px !important;
 `;
 
 const ButtonStyle = styled(Button)`
-  margin-right: 10px;
+  margin-right: 10px !important;
 `;
 
 export default function ContactCard({ contact, setContacts, user }) {

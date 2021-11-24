@@ -8,8 +8,8 @@ import CardMedia from '@mui/material/CardMedia';
 import { deleteTech } from '../api/data/portfolioData';
 
 const CardStyle = styled(Card)`
-  margin-top: 10px;
-  box-shadow: 12px 12px 2px 1px #49fdb1;
+  margin-top: 10px !important;
+  box-shadow: 12px 12px 2px 1px #49fdb1 !important;
 `;
 
 export default function TechCard({ tech, setTechs, user }) {

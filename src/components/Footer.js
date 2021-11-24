@@ -4,18 +4,18 @@ import { Navbar, NavLink } from 'reactstrap';
 import { signInUser } from '../api/auth';
 
 const DivStyle = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
 `;
 
 const NavbarStyle = styled(Navbar)`
-  display: flex;
-  background-color: #ac92a6;
-  justify-content: center;
-  align-items: center;
-  bottom: 0;
+  display: flex !important;
+  background-color: #ac92a6 !important;
+  justify-content: center !important;
+  align-items: center !important;
+  bottom: 0 !important;
 `;
 
 export default function Footer() {

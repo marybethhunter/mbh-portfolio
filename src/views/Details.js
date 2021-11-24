@@ -13,24 +13,22 @@ import styled from 'styled-components';
 import { getSingleProject } from '../api/data/portfolioData';
 
 const DivStyle = styled(Container)`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  // background-color: #6B01FD;
-  margin-top: 4px;
-  border-radius: 5px;
-  min-height: 90vh;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 4px !important;
+  border-radius: 5px !important;
+  min-height: 90vh !important;
 `;
 
 const CardStyle = styled(Card)`
-  margin: 20px 5px;
-  border-radius: 5px;
-  box-shadow: 12px 12px 2px 1px #49fdb1;
-  // border: 2px solid #160033;
+  margin: 20px 5px !important;
+  border-radius: 5px !important;
+  box-shadow: 12px 12px 2px 1px #49fdb1 !important;
 `;
 
 const ImgStyle = styled(CardMedia)`
-  border-radius: 5px;
+  border-radius: 5px !important;
 `;
 
 export default function Details() {

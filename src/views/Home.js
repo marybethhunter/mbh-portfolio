@@ -3,17 +3,17 @@ import styled from 'styled-components';
 import Box from '@mui/material/Container';
 
 const DivStyle = styled.div`
-  display: flex;
-  justify-content: center;
-  min-height: 90vh;
-  align-items: center;
-  margin-top: 1px;
+  display: flex !important;
+  justify-content: center !important;
+  min-height: 90vh !important;
+  align-items: center !important;
+  margin-top: 1px !important;
 `;
 
 const BoxStyle = styled(Box)`
-  height: 90vh;
-  border-radius: 5px;
-  padding: 0;
+  height: 90vh !important;
+  border-radius: 5px !important;
+  padding: 0 !important;
 `;
 
 export default function Home() {
