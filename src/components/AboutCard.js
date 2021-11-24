@@ -9,25 +9,25 @@ import styled from 'styled-components';
 import { getAboutMe } from '../api/data/portfolioData';
 
 const DivStyle = styled.div`
-  display: flex;
-  flex-wrap: flex-wrap;
-  justify-content: center;
-  min-height: 80vh;
-  border-radius: 5px;
+  display: flex !important;
+  flex-wrap: flex-wrap !important;
+  justify-content: center !important;
+  min-height: 80vh !important;
+  border-radius: 5px !important;
 `;
 
 const CardStyle = styled(Card)`
-  margin: 60px 20px;
-  border-radius: 5px;
-  box-shadow: 12px 12px 2px 1px #49fdb1;
+  margin: 60px 20px !important;
+  border-radius: 5px !important;
+  box-shadow: 12px 12px 2px 1px #49fdb1 !important;
 `;
 
 const ImgStyle = styled(CardMedia)`
-  border-radius: 5px;
+  border-radius: 5px !important;
 `;
 
 const TypographyStyle = styled(Typography)`
-  margin-top: 30px;
+  margin-top: 30px !important;
 `;
 
 export default function AboutCard({ about, setAbouts, user }) {

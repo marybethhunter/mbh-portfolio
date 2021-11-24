@@ -10,14 +10,14 @@ import styled from 'styled-components';
 import { deleteProject } from '../api/data/portfolioData';
 
 const DivStyle = styled.div`
-  padding: 5px;
+  padding: 5px !important;
 `;
 
 const CardStyle = styled(Card)`
-  border-radius: 5px;
-  box-shadow: 12px 12px 2px 1px #49fdb1;
-  text-align: center;
-  align-items: center;
+  border-radius: 5px !important;
+  box-shadow: 12px 12px 2px 1px #49fdb1 !important;
+  text-align: center !important;
+  align-items: center !important;
 `;
 
 export default function ProjectCard({ project, setProjects, user }) {

@@ -7,9 +7,9 @@ import { getAllTechUsed } from '../api/data/portfolioData';
 import TechCard from '../components/TechCard';
 
 const DivStyle = styled.div`
-  display: flex;
-  justify-content: center;
-  margin-top: 5px;
+  display: flex !important;
+  justify-content: center !important;
+  margin-top: 5px !important;
 `;
 
 export default function Tech({ user }) {

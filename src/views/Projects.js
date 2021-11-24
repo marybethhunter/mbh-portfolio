@@ -7,11 +7,11 @@ import { getAllProjects } from '../api/data/portfolioData';
 import ProjectCard from '../components/ProjectCard';
 
 const DivStyle = styled.div`
-  margin-top: 5px;
-  margin: 5px;
-  display: flex;
-  justify-content: center;
-  min-height: 90vh;
+  margin-top: 5px !important;
+  margin: 5px !important;
+  display: flex !important;
+  justify-content: center !important;
+  min-height: 90vh !important;
 `;
 export default function Projects({ user }) {
   const [projects, setProjects] = useState([]);
