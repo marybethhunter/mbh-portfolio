@@ -31,173 +31,175 @@ body {
  /* small phones */
 @media only screen and (max-width: 600px) {
   .home-div {
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    min-height: 90vh;
-    margin-top: 10px;
+    width: 90% !important;
+    display: flex !important;
+    margin: auto !important;
+    margin-bottom: 200px;
+  }
+
+  .nav-style {
+    align-items: center;
   }
 
   .about-div {
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: auto;
-    margin-bottom: 15px;
+    width: 90% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    margin: auto !important;
+    margin-bottom: 15px !important;
   }
 
   .about-card-div {
-    margin: 15px 3px;
+    margin: 15px 3px !important;
   }
 
   .about-img-div {
-    height: auto;
+    height: auto !important;
   }
 
   .tech-div {
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    min-height: 90vh;
-    margin-top: 10px;
+    width: 90% !important;
+    display: flex !important;
+    justify-content: center !important;
+    margin: auto !important;
+    min-height: 90vh !important;
+    margin-top: 10px !important;
   }
 
   .project-div {
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 5px;
-    margin-top: 15px;
+    width: 90% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    margin: auto !important;
+    margin-bottom: 20px !important;
+    margin-top: 15px !important;
   }
 
   .project-card {
-    min-height: 100px;
-    min-width: 300px;
-    margin-bottom: 5px;
+    min-height: 100px !important;
+    min-width: 300px !important;
+    margin-bottom: 5px !important;
   }
 }
 
 /* bigger phones/small ipads */
 @media only screen and (min-width:600px) {
   .about-div {
-    width: 90%;
+    width: 90% !important;
   }
 
   .about-card-div {
-    margin: 60px 20px;
-    height: 500px;
+    margin: 60px 20px !important;
+    height: 500px !important;
   }
 
   .about-img-div {
-    height: 500px;
+    height: 500px !important;
   }
 
   .tech-div {
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    margin: auto;
+    width: 90% !important;
+    display: flex !important;
+    justify-content: center !important;
+    margin: auto !important;
   }
 
   .tech-card {
-    box-shadow: 12px 12px 2px 1px #49fdb1;
-    margin-bottom: 15px;
+    box-shadow: 12px 12px 2px 1px #49fdb1 !important;
+    margin-bottom: 15px !important;
   }
 }
 
 /* medium screens */
 @media only screen and (min-width: 768px) {
   .about-div {
-    margin: 60px 20px;
+    margin: 60px 20px !important;
   }
 
   .tech-card {
-    box-shadow: 12px 12px 2px 1px #49fdb1;
-    margin-bottom: 15px;
+    box-shadow: 12px 12px 2px 1px #49fdb1 !important;
+    margin-bottom: 15px !important;
   }
 
   .project-card {
-    box-shadow: 12px 12px 2px 1px #49fdb1;
+    box-shadow: 12px 12px 2px 1px #49fdb1 !important;
   }
 
   .project-div {
-    width: 100%;
-    margin: auto;
-    margin-bottom: 5px;
-    margin-top: 30px;
-    padding-bottom: 30px;
+    width: 100% !important;
+    margin: auto !important;
+    margin-bottom: 5px !important;
+    margin-top: 30px !important;
+    padding-bottom: 30px !important;
   }
 
   .project-card {
-    height: auto;
-    width: auto;
-    margin-bottom: 5px;
+    height: auto !important;
+    width: auto !important;
+    margin-bottom: 5px !important;
   }
 }
 
 /* larger screens - laptops, big tablets */
 @media only screen and (min-width: 992px) {
   .about-div {
-    margin: 60px 20px;
+    margin: 60px 20px !important;
   }
 
   .tech-card {
-    box-shadow: 12px 12px 2px 1px #49fdb1;
-    margin-bottom: 15px;
+    box-shadow: 12px 12px 2px 1px #49fdb1 !important;
+    margin-bottom: 15px !important;
   }
 
   .project-card {
-    box-shadow: 12px 12px 2px 1px #49fdb1;
+    box-shadow: 12px 12px 2px 1px #49fdb1 !important;
   }
 
   .project-div {
-    width: 100%;
-    margin: auto;
-    margin-bottom: 5px;
-    margin-top: 30px;
-    padding-bottom: 30px;
+    width: 100% !important;
+    margin: auto !important;
+    margin-bottom: 5px !important;
+    margin-top: 30px !important;
+    padding-bottom: 30px !important;
   }
 
   .project-card {
-    height: auto;
-    width: auto;
-    margin-bottom: 5px;
+    height: auto !important;
+    width: auto !important;
+    margin-bottom: 5px !important;
   }
 }
 
 /* the biggest */
 @media only screen and (min-width: 1200px) {
   .about-div {
-    margin: 60px 20px;
+    margin: 60px 20px !important;
   }
 
   .tech-card {
-    box-shadow: 12px 12px 2px 1px #49fdb1;
-    margin-bottom: 15px;
+    box-shadow: 12px 12px 2px 1px #49fdb1 !important;
+    margin-bottom: 15px !important;
   }
 
   .project-card {
-    box-shadow: 12px 12px 2px 1px #49fdb1;
+    box-shadow: 12px 12px 2px 1px #49fdb1 !important;
   }
 
   .project-div {
-    width: 100%;
-    margin: auto;
-    margin-bottom: 5px;
-    margin-top: 30px;
-    padding-bottom: 30px;
+    width: 100% !important;
+    margin: auto !important;
+    margin-bottom: 5px !important;
+    margin-top: 30px !important;
+    padding-bottom: 30px !important;
   }
 
   .project-card {
-    height: auto;
-    width: auto;
-    margin-bottom: 5px;
+    height: auto !important;
+    width: auto !important;
+    margin-bottom: 5px !important;
   }
 }
