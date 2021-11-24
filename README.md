@@ -1,4 +1,4 @@
-# Mary Beth Hunter - Personal Bio Site!
+# Mary Beth Hunter - Personal Bio Site! [![Netlify Status](https://api.netlify.com/api/v1/badges/28c3bb9e-7061-4bb8-96cf-9d948b69202f/deploy-status)](https://app.netlify.com/sites/mbh-portfoliosite/deploys)
 
 ## [View Site](https://marybeth-hunter.com/)
 ## Get Started:
