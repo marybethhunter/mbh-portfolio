@@ -5,8 +5,8 @@
 
 
 ```javascript
- $ git clone git@github.com:marybethhunter/mbh-portfolio-site.git
- $ cd mbh-portfolio-site
+ $ git clone git@github.com:marybethhunter/mbh-portfolio.git
+ $ cd mbh-portfolio
 ```
 
 ## About the User
