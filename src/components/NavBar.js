@@ -6,15 +6,15 @@ import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
 
 const ButtonStyle = styled(Button)`
-  color: #160033;
-  margin-left: 5px;
-  font-size: 20px;
+  color: #160033 !important;
+  margin-left: 5px !important;
+  font-size: 20px !important;
 `;
 
 const NavStyle = styled(AppBar)`
-  background-color: #ffffff;
-  margin-bottom: 3px;
-  align-items: center;
+  background-color: #ffffff !important;
+  margin-bottom: 3px !important;
+  align-items: center !important;
 `;
 
 export default function NavBar() {
