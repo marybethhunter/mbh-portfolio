@@ -1,6 +1,6 @@
 # Mary Beth Hunter - Personal Bio Site!
 
-## [View Site](https://www.marybhunter.com/)
+## [View Site](https://marybeth-hunter.com/)
 ## Get Started:
 
 
