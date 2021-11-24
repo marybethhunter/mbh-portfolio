@@ -12,7 +12,6 @@ const DivStyle = styled.div`
 
 const NavbarStyle = styled(Navbar)`
   display: flex !important;
-  background-color: #ac92a6 !important;
   justify-content: center !important;
   align-items: center !important;
   bottom: 0 !important;
