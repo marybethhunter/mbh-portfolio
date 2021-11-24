@@ -10,6 +10,7 @@ const DivStyle = styled.div`
   display: flex !important;
   justify-content: center !important;
   margin-top: 5px !important;
+  margin-bottom: 10px !important;
 `;
 
 export default function Tech({ user }) {

@@ -11,6 +11,7 @@ import { deleteProject } from '../api/data/portfolioData';
 
 const DivStyle = styled.div`
   padding: 5px !important;
+  margin-bottom: 10px !important;
 `;
 
 const CardStyle = styled(Card)`
