@@ -19,7 +19,11 @@ export default function Projects({ user }) {
   useEffect(() => {
     let isMounted = true;
     getAllProjects().then((projArray) => {
-      if (isMounted) setProjects(projArray);
+      if (isMounted) {
+        setProjects(
+          projArray.sort((a, b) => (a.dateCreated > b.dateCreated ? 1 : -1)),
+        );
+      }
     });
     return () => {
       isMounted = false;
