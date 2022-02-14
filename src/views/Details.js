@@ -94,13 +94,17 @@ export default function Details() {
               >
                 <GitHubIcon style={{ color: '#ffffff' }} /> Github
               </Button>
-              <Button
-                style={{ color: '#ffffff' }}
-                href={project.deployedLink}
-                target="_blank"
-              >
-                <LanguageIcon style={{ color: '#ffffff' }} /> Deployed Site
-              </Button>
+              {project.deployedLink ? (
+                <Button
+                  style={{ color: '#ffffff' }}
+                  href={project.deployedLink}
+                  target="_blank"
+                >
+                  <LanguageIcon style={{ color: '#ffffff' }} /> Deployed Site
+                </Button>
+              ) : (
+                ''
+              )}
             </CardActions>
           </CardStyle>
         </DivStyle>
